@@ -1,0 +1,65 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    background-color: #333;
+    
+}
+li{
+    display: inline-block;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+li a:hover{
+    background-color: crimson;
+    transition: all ease-in-out 0.5s;
+}
+.Home{
+    background-color: green;
+}
+.Home:active{
+    background-color: green;
+}
+
+.button1{
+   display: inline-block;
+   position: relative;
+}
+.button1 button{
+    font-size: 20.5px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 16px;
+}
+button:hover{
+background-color: crimson;
+transition: all ease-in-out 0.5s;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.button1:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+

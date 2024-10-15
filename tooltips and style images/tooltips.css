@@ -1,0 +1,57 @@
+.div1{
+    position: relative;
+    display: inline-block;
+    border: 1px dashed black;
+}
+.div1 span{
+    visibility:hidden;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    z-index: 1;
+    width: 180px;
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    left: 105%;
+    opacity: 0.5;
+    transition:ease-in-out 1s;
+    
+    
+
+}
+.div1:hover span{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+.div2{
+    display: inline-block;
+    position: relative;
+    border:1px solid black;
+    margin-left: 50%;
+    text-align: center
+}
+
+.div2 .span1{
+    visibility:hidden ;
+    width: 180px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    border-radius: 5px;
+    position: absolute;
+   top: 120%;
+   left: 50%;
+   margin-left: -100px;
+   opacity: 0.5;
+   transition: ease-in-out 1s; 
+}
+.div2:hover .span1{
+visibility: visible;
+opacity: 1;
+}

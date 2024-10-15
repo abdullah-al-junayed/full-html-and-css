@@ -1,0 +1,5 @@
+img{
+   -webkit-mask-image: url(HTML.png);
+    mask-image: url(HTML.png);
+    
+}

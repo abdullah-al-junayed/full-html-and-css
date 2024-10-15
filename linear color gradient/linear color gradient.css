@@ -1,0 +1,41 @@
+.div1{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    background-image: linear-gradient(red,yellow);
+}
+.div2{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    background-image: linear-gradient(to right, red,yellow);
+}
+.div3{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    background-image: linear-gradient(to left ,red,rgb(255, 251, 0));
+}
+.div4{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    background-image: linear-gradient(to bottom left, red,yellow)
+}
+.div5{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    background-image: linear-gradient(to bottom right,red,yellow);
+}
+.div6{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    background-image:repeating-linear-gradient(red,green,yellow);
+}

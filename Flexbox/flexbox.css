@@ -1,0 +1,38 @@
+.Box{
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+height: 500px;
+flex-direction: row;
+
+}
+.div1{
+background-color: red;
+width: 120px;
+height: 120px;
+font-size: 7rem;
+align-self:flex-end;
+}
+.div2{
+background-color: yellow;
+width: 120px;
+height: 120px;
+font-size: 7rem;
+order:-1 ;
+}
+.div3{
+background-color: green;
+width: 120px;
+height: 120px;
+font-size: 7rem;
+flex-shrink:5;
+}
+.div4{
+background-color: blueviolet;
+width: 120px;
+height: 120px;
+font-size: 7rem;
+align-self: flex-end;
+}

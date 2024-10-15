@@ -1,0 +1,24 @@
+*{
+    background-color: #eee;
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.blog p{
+    column-count: 3;
+    column-rule: 2px solid #7c7a7a;
+    color: #000000;
+    font-size: 20px;
+    column-gap: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+p::selection{
+   background-color: crimson;
+   color: rgb(255, 255, 255);
+}

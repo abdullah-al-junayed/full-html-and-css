@@ -1,0 +1,35 @@
+.p1{
+    color:white;
+    border:5px solid red;
+   /* outline-style:dashed ;
+    outline-color:green;
+    outline-width:10px;*/
+    outline:10px solid green;
+  }   
+  .p2{
+    color:rgb(55,155,255);
+    background-color:transparent;
+    text-align:center;
+    direction:rtl;
+  }
+  h1{
+   color:white;
+  /*  text-decoration-line:underline;
+    text-decoration-thickness:10px;
+    text-decoration-style:dashed;
+    text-decoration-color:crimson;*/
+    
+    text-decoration:underline 10px dashed crimson;
+  }
+  .p3{
+    color:white;
+    text-transform:capitalize;
+  }
+  .p4{
+    color:white;
+    text-indent:15px;
+    letter-spacing:2px;
+    line-height:1.2;
+    word-spacing:5px;
+    text-shadow:2px 2px red;
+  }

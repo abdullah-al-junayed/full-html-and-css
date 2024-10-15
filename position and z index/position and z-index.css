@@ -1,0 +1,71 @@
+.parents{
+    background-color: aqua;
+    position: static;
+  /*  height: 600vw;*/
+}
+
+.one{
+    background-color: aquamarine;
+    position: relative;
+    left: 50px;
+}
+
+.two{
+    background-color: bisque;
+    position: fixed;
+    left:100px;
+}
+
+.three{
+    background-color: blue;
+    position: absolute;
+}
+.four{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+}
+
+.green{
+    background-color: green;
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+.red{
+    background-color: red;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.xindex01{
+    position: relative;
+}
+.xindex1{
+    position: relative;
+    border: 2px solid black;
+    z-index: 1;
+}
+.xindex2{
+    position: absolute;
+    border: 1px solid black;
+    width: 250px;
+    height: 60px;
+    top: 60px;
+    background-color: green;
+    z-index: 3;
+}
+.thirdchild{
+    position: absolute;
+    border: 1px solid black;
+    width :300px;
+    
+    background-color: crimson;
+    z-index: 2;
+}

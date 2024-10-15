@@ -1,0 +1,36 @@
+.button{
+    width: 200px;
+    background-color: rgba(27, 185, 27, 0.87);
+    vertical-align: middle;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s ;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.button span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span::after{
+content: '\00bb';
+opacity: 0;
+margin-left: 10px;
+position: absolute;
+}
+button:hover{
+    margin-left: 5px;
+    margin-top: 5px;
+    transform: translateY(20px);
+}
+.button:hover span:after{
+    opacity: 1;
+    transition: 1s;
+
+}

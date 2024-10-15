@@ -1,0 +1,27 @@
+:root{
+    --1stcolor: blue;
+    --2ndcolor: red;
+}
+.demo{
+    width: 300px;
+    height: 200px;
+    background-color:var(--2ndcolor);
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+.div1{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.div2{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    padding: 50px;
+    box-sizing: border-box;
+}

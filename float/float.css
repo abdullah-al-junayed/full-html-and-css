@@ -1,0 +1,58 @@
+.p1{
+background-color: yellow;
+border: 1px solid ;
+width: 90%;
+height: 400px;
+padding: 10px 5px;
+overflow: auto;
+}
+.img1{
+    width: 40%;
+    margin: 10px ;
+float: left;
+    
+}
+.p2{
+    background-color: yellow;
+    border: 1px solid ;
+    width: 90%;
+    height: 400px;
+    padding: 10px 5px;
+    overflow: auto;
+    }
+.img2{
+    width: 40%;
+    margin: 10px ;
+float: right;
+}
+.p3{
+    background-color: yellow;
+    border: 1px solid ;
+    width: 90%;
+    height: 400px;
+    padding: 10px 5px;
+    overflow: auto;
+   float: right;
+   margin-right: 56.5px;
+}
+.img3{
+    width: 40%;
+    margin: 10px ;
+float: inherit;
+}
+
+.p4{
+    background-color: yellow;
+    border: 1px solid ;
+    width: 90%;
+    height: 200px;
+    padding: 10px 5px;
+    overflow: auto;
+   margin-top: 440px;
+}
+
+.img4{
+    width: 40%;
+    margin: 10px ;
+float: right;
+}

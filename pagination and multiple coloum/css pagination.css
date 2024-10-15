@@ -1,0 +1,32 @@
+.div1{
+    text-align: center;
+    margin: 20px;
+    
+}
+.div2{
+    display: inline-block;
+    text-align: center;
+}
+.div2 a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    letter-spacing:10px;
+    border-radius: 5px;
+    transition:background 0.7s;
+    float:inline-start;
+    cursor:pointer;
+    margin-left: 5px;
+   
+}
+
+.div1 .div2 a:focus{
+    background-color: rgba(15, 192, 15, 0.986);
+    color: rgb(221, 212, 212);
+ outline: none;
+    border: none;
+}
+.div1 a:hover{
+    background-color: #ddd;
+}

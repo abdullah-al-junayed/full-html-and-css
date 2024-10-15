@@ -1,0 +1,23 @@
+a{
+    border:1px solid green;
+  padding:3px 10px;
+  
+  }
+  a:link{
+    color:black;
+    text-decoration:none;
+  }
+  a:hover{
+   
+    color:white;
+    background-color:green;
+    text-decoration:none;
+  }
+  a:active{
+   background-color:lightblue;
+    color:black;
+  }
+  a:visited{
+    color:blueviolet;
+  }
+  

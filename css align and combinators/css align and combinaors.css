@@ -1,0 +1,61 @@
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    position: relative;
+    top: 0;
+bottom: 0;
+    left: 500px;
+    margin: auto;
+    
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    position: relative;
+    top: 0;
+bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    position: relative;
+    top: 0;
+bottom: 0;
+   
+    right: 500px;
+    margin: auto;
+}
+.para1{
+    text-align: center;
+    font-weight: bold;
+}
+img{
+   display: block;
+    left: 0;
+    right:0;
+    margin: auto;
+    
+}
+
+.com1 p{
+    background-color: yellow;
+}
+
+.com2>p{
+    background-color:crimson;
+}
+
+.com3 +p{
+    background-color: aqua;
+}
+
+.com4 ~p{
+    background-color: tomato;
+}
